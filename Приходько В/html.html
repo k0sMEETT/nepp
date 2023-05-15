@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-wrap">
+        <div class="profile"><img src="./Screenshot_13.png">
+        <h1>реєстрація</h1>
+        </div>
+        <form >
+            Ім'я<input type="text" placeholder="" required><br>
+            Прізвище<input type="text" placeholder="" required>
+            <div class="radio">
+                стать<br/>
+                <input type="radio" name="like" value="cats"><label for="likeCats">Чоловіча</label>
+                <input type="radio" name="like" value="dogs"><label for="likeDogs">Жічноча</label>
+            </div>
+            e-mail<input type="text" placeholder="" required>
+            <div>
+                    <label for="education">країна</label> 
+                <select>
+                        <option value="none">Виберіть країну</option>
+                        <option value="none">Франція </option>
+                        <option value="school">Нідерланди</option>
+                        <option value="univer">Україна</option>
+                        <option value="other">Польща</option>
+                </select>
+            </div>
+            <div>
+                <button class="button-g"type="submit">відправити</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
